@@ -1,32 +1,32 @@
-﻿# Telecom AI - Intelligent Telecom Optimization System
+# Telecom AI - Intelligent Telecom Optimization System
 
-## 🎯 Overview
+## ?? Overview
 
-Phase 0 foundation of an AI-driven telecom network optimization system with multi-phase architecture for data ingestion, analytics, anomaly detection, and optimization.
+Phase 1: Foundation of an AI-driven telecom network optimization system with multi-phase architecture for data ingestion, analytics, anomaly detection, and optimization.
 
-**Status:** Phase 1 Module 1 ✅ COMPLETE (Production Ready)
+**Status:** Phase 1 Module 1 ? COMPLETE (Production Ready)
 
 ---
 
-## 📊 Phase 1: Data Ingestion Foundation
+## ?? Phase 1: Data Ingestion Foundation
 
 ### Features
-- ✅ Robust CSV reading with 9+ encoding support (UTF-8, Latin1, GB2312, etc.)
-- ✅ Automatic time column detection (20+ keyword variations)
-- ✅ Time format parsing (Hourly: YYYY-MM-DD HH, Daily: MM/DD/YYYY)
-- ✅ Smart column classification (Text Dimensions, ID Dimensions, KPI Metrics)
-- ✅ Data type normalization (String → Numeric conversion)
-- ✅ Multi-language support (Chinese, Japanese, emoji UTF-8)
-- ✅ Large file handling (100MB+ with streaming)
+- ? Robust CSV reading with 9+ encoding support (UTF-8, Latin1, GB2312, etc.)
+- ? Automatic time column detection (20+ keyword variations)
+- ? Time format parsing (Hourly: YYYY-MM-DD HH, Daily: MM/DD/YYYY)
+- ? Smart column classification (Text Dimensions, ID Dimensions, KPI Metrics)
+- ? Data type normalization (String ? Numeric conversion)
+- ? Multi-language support (Chinese, Japanese, emoji UTF-8)
+- ? Large file handling (100MB+ with streaming)
 
 ### Quality Metrics
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
-| Unit Tests | 100% | 36/36 PASS | ✅ |
-| Code Coverage | >85% | 86% | ✅ |
-| Type Hints | 100% | 100% | ✅ |
-| Performance | <0.1s | 0.05s | ✅ |
-| Critical Bugs | 0 | 0 | ✅ |
+| Unit Tests | 100% | 36/36 PASS | ? |
+| Code Coverage | >85% | 86% | ? |
+| Type Hints | 100% | 100% | ? |
+| Performance | <0.1s | 0.05s | ? |
+| Critical Bugs | 0 | 0 | ? |
 
 ### Quick Start
 
@@ -61,51 +61,51 @@ ids = metadata.dimensions_id
 
 ---
 
-## 📁 Project Structure
+## ?? Project Structure
 
 \\\
 Telecom-AI/
-├── Starting Module 1 (data_ingestion.py)/  # Phase 1 Archive
-│   ├── src/
-│   │   ├── data_ingestion.py      # Core ingestion logic (650+ lines)
-│   │   └── data_models.py         # Pydantic models (95 lines)
-│   ├── tests/
-│   │   ├── test_data_ingestion.py # 36 comprehensive tests
-│   │   └── conftest.py            # Pytest configuration
-│   ├── data/                      # Sample test data
-│   ├── .coverage                  # Coverage report
-│   └── test_results.xml           # JUnit XML results
-├── .gitignore
-└── README.md
++-- Starting Module 1 (data_ingestion.py)/  # Phase 1 Archive
+�   +-- src/
+�   �   +-- data_ingestion.py      # Core ingestion logic (650+ lines)
+�   �   +-- data_models.py         # Pydantic models (95 lines)
+�   +-- tests/
+�   �   +-- test_data_ingestion.py # 36 comprehensive tests
+�   �   +-- conftest.py            # Pytest configuration
+�   +-- data/                      # Sample test data
+�   +-- .coverage                  # Coverage report
+�   +-- test_results.xml           # JUnit XML results
++-- .gitignore
++-- README.md
 \\\
 
 ---
 
-## 🔄 Architecture
+## ?? Architecture
 
 ### Data Ingestion Pipeline
 
 \\\
 CSV File
-   ↓
+   ?
 Read with Encoding Detection
-   ↓
+   ?
 Detect Time Column
-   ↓
+   ?
 Parse Time Format
-   ↓
+   ?
 Normalize Data Types
-   ↓
+   ?
 Classify Columns (Text/ID/KPI)
-   ↓
+   ?
 Validate Data Integrity
-   ↓
+   ?
 Return DataFrameMetadata
 \\\
 
 ---
 
-## 🚀 Upcoming Phases
+## ?? Upcoming Phases
 
 - **Phase 2 Module 1:** Filtering & Aggregation
 - **Phase 2 Module 2:** Anomaly Detection (LSTM, Isolation Forest, Z-Score)
@@ -115,7 +115,7 @@ Return DataFrameMetadata
 
 ---
 
-## 👨‍💼 Author
+## ????? Author
 
 Rahul Nishad
 - 15+ years telecom engineering experience
@@ -124,13 +124,13 @@ Rahul Nishad
 
 ---
 
-## 📄 License
+## ?? License
 
 MIT License - See LICENSE file for details
 
 ---
 
-## 🤝 Contributing
+## ?? Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
@@ -142,3 +142,4 @@ Contributions welcome! Please:
 ---
 
 **Last Updated:** December 2, 2025
+
