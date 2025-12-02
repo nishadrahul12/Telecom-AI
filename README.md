@@ -1,4 +1,4 @@
-# Telecom AI - Intelligent Telecom Optimization System
+ï»¿# Telecom AI - Intelligent Telecom Optimization System
 
 ## ?? Overview
 
@@ -66,15 +66,15 @@ ids = metadata.dimensions_id
 \\\
 Telecom-AI/
 +-- Starting Module 1 (data_ingestion.py)/  # Phase 1 Archive
-¦   +-- src/
-¦   ¦   +-- data_ingestion.py      # Core ingestion logic (650+ lines)
-¦   ¦   +-- data_models.py         # Pydantic models (95 lines)
-¦   +-- tests/
-¦   ¦   +-- test_data_ingestion.py # 36 comprehensive tests
-¦   ¦   +-- conftest.py            # Pytest configuration
-¦   +-- data/                      # Sample test data
-¦   +-- .coverage                  # Coverage report
-¦   +-- test_results.xml           # JUnit XML results
+Â¦   +-- src/
+Â¦   Â¦   +-- data_ingestion.py      # Core ingestion logic (650+ lines)
+Â¦   Â¦   +-- data_models.py         # Pydantic models (95 lines)
+Â¦   +-- tests/
+Â¦   Â¦   +-- test_data_ingestion.py # 36 comprehensive tests
+Â¦   Â¦   +-- conftest.py            # Pytest configuration
+Â¦   +-- data/                      # Sample test data
+Â¦   +-- .coverage                  # Coverage report
+Â¦   +-- test_results.xml           # JUnit XML results
 +-- .gitignore
 +-- README.md
 \\\
@@ -142,4 +142,5 @@ Contributions welcome! Please:
 ---
 
 **Last Updated:** December 2, 2025
+
 
